@@ -1,11 +1,279 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../Asteros/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Asteros</title>
 </head>
+
 <body>
-    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__burger">
+                    <img src="../Asteros/img/header/burger.png" alt="">
+                </div>
+
+                <div class="header__logo">
+                    <img src="../Asteros/img/header/Logo.png" alt="">
+                </div>
+
+                <nav class="nav">
+                        <a class='nav__link' href="#">О нас</a>
+                        <a class='nav__link' href="#">Отрасли</a>
+                        <a class='nav__link' href="#">Решения</a>
+                        <a class='nav__link' href="#">Контакты</a>
+                </nav>
+
+                <form class="search">
+                    <input class="search__item" type="search" name="search" placeholder='Поиск' id="">
+                    <button class="search__btn" type='submit'><img src="../Asteros/img/header/search.png" alt=""></button>
+                </form>
+
+                <div class="header__lang">
+                   <a class='lang lang--active' href="#">ru</a>
+                   <a class='lang eng' href="#">eng</a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Intro -->
+    <div class="intro">
+        <div class="container">
+            <div class="slider">
+                <div class="slider__item"></div>
+                <div class="slider__item"></div>
+                <div class="slider__item"></div>
+                <div class="slider__item slider__item--active"></div>
+            </div>
+            <div class="intro__inner">
+                <div class="intro__img">
+                    <img src="../Asteros/img/intro/intro.png" alt="">
+                </div>
+
+                <div class="intro__text">
+                    <div class="intro__title">
+                        <h1>Офис <br>под ключ</h1>
+                    </div>
+
+                    <div class="intro__description">
+                        <p>Расширяйте горизонты с решениями “Астерос” по организации инфраструктуры офиса</p>
+                    </div>
+
+                    <button class="intro__btn btn">Узнать больше</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Intro -->
+
+    <!-- Content -->
+    <section class="section">
+        <div class="container">
+            <div class="content">
+                <div class="content__menu content__menu--top ">
+                    <button class="content__btn content__btn--top">Инфраструктура
+                        и инженерные системы</button>
+                    <button class="content__btn content__btn--top">Комплексная
+                        безопасность</button>
+                    <button class="content__btn content__btn--top">Аутсорсинг и сервис</button>
+                </div>
+
+                <div class="aboutus">
+
+                    <div class="aboutus__text">
+                        <div class="aboutus__title"><h2>О нас</h2></div>
+
+                        <div class="aboutus__description">“Астерос” - ведущий системный интегратор России.
+                        <br>Мы являемся генеральным подрядчиком в реализации инфраструктурных и инженерных проектов «под ключ».<br>
+                        <br>Мы разрабатываем и внедреняем собственные уникальные технологии, результатом применения которых является повышение ценности бизнеса наших клиентов и, как следствие, вклад в укрепление конкурентоспособности и тех нологической мощи страны.</div>
+
+                        <div class="aboutus__btn btn"><a href="#">Посмотреть наши проекты</a></div>
+                    </div>
+
+                    <div class="aboutus__img"><img src="../Asteros/img/Content/img.png" alt=""></div>
+                </div>
+
+                <div class="content__menu content__menu--bottom">
+                    <a href="#">
+                        <div class="content__btn content__btn--bottom">
+                            <div class="content__icon">
+                                <img src="../Asteros/img/Content/play.png" alt="">
+                            </div>
+
+                            <div class="content__title"><h2>Смотреть</h2></div>
+
+                            <div class="content__text">
+                                <p>42 видео и подкастов, повествующих о нашей деятельности </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="content__btn content__btn--bottom">
+                            <div class="content__icon">
+                                <img src="../Asteros/img/Content/reward.png" alt="">
+                            </div>
+
+                            <div class="content__title"><h2>Награды</h2></div>
+
+                            <div class="content__text">
+                                <p>Достижения, подтверждающие нашу экспертизу </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Content -->
+
+    <!-- Advantage -->
+    <section class="section">
+        <div class="container">
+            <div class="advantage">
+                <div class="advantage__block">
+                    <div class="advantage__text">
+                        <div class="advantage__title"><h2>Комплекс услуг 360°</h2></div>
+                        <div class="advantage__description">От разработки концепции и проектирования до сервисной поддержки</div>
+                    </div>
+                    <div class="advantage__icon"><img src="../Asteros/img/advantage/key.png" alt=""></div>
+                </div>
+
+                <div class="advantage__block">
+                    <div class="advantage__text">
+                        <div class="advantage__title"><h2>Обширный опыт</h2></div>
+                        <div class="advantage__description">В реализации сложных комплексных проектов национального масштаба</div>
+                    </div>
+                    <div class="advantage__icon"><img src="../Asteros/img/advantage/like.png" alt=""></div>
+                </div>
+
+                <div class="advantage__block last">
+                    <div class="advantage__text">
+                        <div class="advantage__title"><h2>Гибкий подход</h2></div>
+                        <div class="advantage__description advantage__description--disable"></div>
+                    </div>
+                    <div class="advantage__icon"><img src="../Asteros/img/advantage/wave.png" alt=""></div>
+                </div>
+
+                <div class="advantage__block">
+                    <div class="advantage__text">
+                        <div class="advantage__title"><h2>Эффективны</h2></div>
+                        <div class="advantage__description">В управление ресурсами и рисками, всегда соблюдаем сроки</div>
+                    </div>
+                    <div class="advantage__icon"><img src="../Asteros/img/advantage/flag.png" alt=""></div>
+                </div>
+
+                <div class="advantage__block">
+                    <div class="advantage__text">
+                        <div class="advantage__title"><h2>Даем гарантии</h2></div>
+                        <div class="advantage__description">И несём 100% ответственность за результат</div>
+                    </div>
+                    <div class="advantage__icon"><img src="../Asteros/img/advantage/shld.png" alt=""></div>
+                </div>
+
+                <div class="advantage__block last">
+                    <div class="advantage__text">
+                        <div class="advantage__title"><h2>1600+</h2></div>
+                        <div class="advantage__description">Специалистов в штате компании в России и Казахстане</div>
+                    </div>
+                    <div class="advantage__icon"><img src="../Asteros/img/advantage/pers.png" alt=""></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /Advantage -->
+
+    <!-- Partners -->
+    <section class="section">
+        <div class="container">
+            <div class="partners">
+                <div class="partners__text">
+                    <div class="partners__title"><h2>Партнеры</h2></div>
+                    <div class="partners__description">У нас более 30 партнёров по всему СНГ</div>
+                </div>
+                <div class="partners__icons">
+                    <div class="partners__img"><img src="../Asteros/img/partners/ibm.png" alt=""></div>
+                    <div class="partners__img"><img src="../Asteros/img/partners/avaya.png" alt=""></div>
+                    <div class="partners__img"><img src="../Asteros/img/partners/oracle.png" alt=""></div>
+                    <div class="partners__img"><img src="../Asteros/img/partners/cisco.png" alt=""></div>
+                    <div class="partners__img"><img src="../Asteros/img/partners/commscope.png" alt=""></div>
+                    <div class="partners__img"><img src="../Asteros/img/partners/hp.png" alt=""></div>
+                    <div class="partners__img"><img src="../Asteros/img/partners/ms.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Partners -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__menu">
+                <div class="footer__col">
+                    <div class="footer__title"><h2>О нас</h2></div>
+                    <div class="footer__links">
+                        <a href="">О компании</a>
+                        <a href="">Лицензии и сертификаты</a>
+                        <a href="">Политика компании и соглашения</a>
+                        <a href="">Награды</a>
+                        <a href="">Партнеры</a>
+                    </div>
+                </div>
+
+                <div class="footer__col">
+                    <div class="footer__title"><h2>Отрасли</h2></div>
+                    <div class="footer__links">
+                        <a href="">Промышленность</a>
+                        <a href="">Телекоммуникации</a>
+                        <a href="">Финансы</a>
+                        <a href="">Энергетика</a>
+                        <a href="">Аэропорты</a>
+                        <a href="">Госсектор</a>
+                        <a href="">Финансы</a>
+                        <a href="">Энергетика</a>
+                        <a href="">Гостиницы</a>
+                        <a href="">Нефть и газ</a>
+                        <a href="">Спорт</a>
+                        <a href="">Недвижимость и строительство</a>
+                    </div>
+                </div>
+
+                <div class="footer__col">
+                    <div class="footer__title"><h2>Решения</h2></div>
+                    <div class="footer__links">
+                        <a href="">Инфраструктура и инженерные системы</a>
+                        <a href="">Системы безопасности</a>
+                        <a href="">Аутсорсинг и сервис</a>
+                    </div>
+                </div>
+
+                <div class="footer__col">
+                    <div class="footer__title"><h2>Контакты</h2></div>
+                    <div class="footer__contacts">
+                        <h2>+7 (495) 787-2450</h2>
+                        <div class="footer__social">
+                            <a href=""><img src="../Asteros/img/social/mail.png" alt=""></a>
+                            <a href=""><img src="../Asteros/img/social/fb.png" alt=""></a>
+                            <a href=""><img src="../Asteros/img/social/insta.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__row">
+                <div class="footer__text">© 2020, Астерос</div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
 </body>
+
 </html>
