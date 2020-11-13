@@ -50,7 +50,7 @@ h1,h2,h3,p {
     color: #1B2931;
     font-weight: 400;
     
-    background-image: linear-gradient(currentColor, currentColor);
+    background-image: linear-gradient(#1B2931, #1B2931);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 1px;
