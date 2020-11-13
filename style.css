@@ -48,7 +48,7 @@ h1,h2,h3,p {
     margin-right: 40px;
 
     color: #1B2931;
-    font-weight: 500;
+    font-weight: 400;
     
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
@@ -199,7 +199,7 @@ h1,h2,h3,p {
     letter-spacing: -0.1em;
 }
 .intro__title > h1 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 36px;
     color: #1B2931;
     line-height: 1.2;
@@ -374,7 +374,7 @@ h2 {
 .aboutus__title > h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.2;
 
     color: #1B2931;
@@ -436,7 +436,7 @@ h2 {
 }
 
 .advantage__title > h2 {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .advantage__description{
