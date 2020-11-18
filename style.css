@@ -824,6 +824,14 @@ h2 {
     .search {
         margin-left: 0;
     }
+    .lang {   
+        font-size: 12px;
+    }
+
+    .eng::before {
+        height: 15px;
+        top: 0px;
+    }
 
     .content__menu {
         flex-wrap: wrap;
@@ -834,6 +842,9 @@ h2 {
     }
     .aboutus {
         flex-wrap: wrap;
+    }
+    .aboutus__text {
+        padding: 0 20px;
     }
     .aboutus__img {
         display: none;
@@ -847,6 +858,7 @@ h2 {
     }
     .advantage__block {
         margin: 0 auto;
+        flex: 1 1 100%;
     }
 
     .footer__row {
