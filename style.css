@@ -499,6 +499,8 @@ h2 {
     font-size: 18px;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+    
+    text-align: center;
 }
 
 .content__icon {
@@ -804,5 +806,61 @@ h2 {
 
 
 @media (max-width: 575px) {
+    .slider {
+        display: none;
+    }
+    .intro {
+        height: auto
+    }
 
+    .intro__inner {
+        flex-wrap: wrap;
+    }
+
+    .search__item {
+        display: none;
+    }
+
+    .search {
+        margin-left: 0;
+    }
+
+    .content__menu {
+        flex-wrap: wrap;
+    }
+
+    .content__btn {
+        margin: 0 auto 1px auto;
+    }
+    .aboutus {
+        flex-wrap: wrap;
+    }
+    .aboutus__img {
+        display: none;
+    }
+    .intro__text {
+        margin: 20px;
+    }
+    .aboutus__text {
+        margin-top: 20px;
+        padding-left: 35px;
+    }
+    .advantage__block {
+        margin: 0 auto;
+    }
+
+    .footer__row {
+        padding: 0 15px 10px 0;
+    }
+    
+    .footer__menu {
+        flex-wrap: wrap;
+    }
+
+    .footer__links {
+        flex-wrap: nowrap;
+        max-height: 191px;
+        overflow: hidden;
+    }
+    }
 }
