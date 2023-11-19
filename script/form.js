@@ -161,7 +161,7 @@ form.onsubmit = (e) => {
         <h3 class="end__title">Спасибо за ваш заказ!</h3>
         <h3 class="end__title">В ближайшее время менеджер<br> 
         свяжется с вами, чтобы обсудить детали заказа.</h3>
-        <a href="/index.html" class="button end__button">Вернуться на главную</a>
+        <a href="/asteros/index.html" class="button end__button">Вернуться на главную</a>
     `;
     document.querySelector('.page').append(thankYou);
 }

@@ -81,7 +81,8 @@
 }
 
 .summary {
-    min-height: 150px;
+    max-height: 210px;
+    overflow-y: scroll;
     display: flex;
     gap: 40px;
     flex-direction: column;
@@ -161,7 +162,6 @@
     background-color: var(--main-white);
     flex-direction: column;
     cursor: default;
-    /* display: none; */
 }
 
 .amount__content::-webkit-scrollbar {
