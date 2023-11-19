@@ -1,0 +1,126 @@
+@import "header.css";
+@import "hero.css";
+@import "main.css";
+@import "footer.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200;300&display=swap');
+
+:root{
+    /* FONTS */
+    --montserrat-font: 'Montserrat', sans-serif;
+    --oswald-font: 'Oswald', sans-serif;
+
+    --text-copy: 0.5rem;
+    --text-xxs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text: 1rem;
+
+    --title-xs: 1.1rem;
+    --title-sm: 1.15rem;
+    --title: 1.5rem;
+    --title-l: 2.25rem;
+
+    --fw-light: 300;
+    --fw-regular: 400;
+
+    /* COLORS */
+    --main-blue: #1896E1;
+    --main-blue-hover: #1897e1d0;
+    --main-dark-blue: #1672A9;
+    --main-gray: #525E65;
+    --main-white: #FFFFFF;
+    --main-black: #1B2931;
+    --secondary-gray: #A8B8C1;
+    --secondary-blue: #79C6F4;
+    --secondray-light-blue: #BDDDF1;
+    --secondary-light-gray: #C3D0D8;
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+.page {
+    position: relative;
+    height: 1000px;
+    font-family: var(--oswald-font);
+    font-size: var(--text-sm);
+    color: var(--main-gray);
+    font-weight: var(--fw-light);
+}
+
+.page__title {
+    font-size: var(--title);
+}
+
+.page__section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.scroll--hidden {
+    overflow: hidden;
+}
+
+.button {
+    text-align: center;
+    padding: 5px 10px;
+    font-family: var(--oswald-font);
+    font-size: var(--text-sm);
+    color: var(--main-white);
+    background-color: var(--main-blue);
+    cursor: pointer;
+    height: 36px;
+}
+
+.hover {
+    transition: background-color .2s linear;
+}
+
+.hover:hover {
+    background-color: var(--main-blue-hover);
+}
+
+.link {
+    transition: color .1s ease-in-out;
+}
+
+.link:hover {
+    color: var(--secondary-light-gray);
+}
+
+@media (min-width: 768px) {
+    .page {
+        font-size: var(--text);
+    }
+}
+
+@media (min-width: 1280px) {
+    .page {
+        font-size: var(--text-l);
+    }
+
+    .page__title {
+        font-size: var(--title);
+    }
+
+    .button {
+        font-size: var(--text);
+    }
+}

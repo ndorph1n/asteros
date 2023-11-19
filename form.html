@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Заявка на программное обеспечение">
+    <title>Астерос. Заявка на ПО</title>
+    <link rel="stylesheet" href="/style/form.css">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+</head>
+<body class="page">
+    <article class="order page__order">
+        <h2 class="order__title page__title">Заявка на програмное обеспечение</h2>
+        <label class="order__subtitle page__title option"> Добавьте програмное обеспечение
+            <input 
+                type="text" 
+                name="software" 
+                class="software order__software option" 
+                placeholder="Введите название программы"
+                >
+        </label>
+        
+        <h3 class="order__subtitle page__title">Укажите необходимое количество лицензий:</h2>
+        
+        <form class="form order__form">
+            <div class="summary order__summary">
+            </div>
+    
+            <p class="price order__price">
+                <span class="price__amount page__title">0 ₽</span>
+                <br>Общая стоимость
+            </p>
+            
+            <button type="submit" class="button order__submit">Отправить заказ</button>
+        </form>
+    </article>
+
+    <script src="/script/form.js"></script>
+</body>
+</html>
