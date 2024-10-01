@@ -118,7 +118,7 @@
 }
 
 .search__button {
-    background-image: url(/img/header/search--white.png);
+    background-image: url(../img/header/search--white.png);
     background-size: contain;
     background-color: transparent;
     cursor: pointer;
@@ -169,7 +169,7 @@
 
 .header__search {
     cursor: pointer;
-    background: url(/img/header/search.png);
+    background: url(../img/header/search.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
