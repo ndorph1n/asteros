@@ -180,7 +180,7 @@
 
     .about-us {
         width: 100%;
-        background-image: url(/img/content/img.png);
+        background-image: url(../img/content/img.png);
         background-position: right;
         background-repeat: no-repeat;
         background-size: auto;
