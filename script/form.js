@@ -17,6 +17,7 @@ const formModal = document.querySelector(".modal-form");
 const cardButton = document.querySelectorAll(".card__button");
 const wrapper = document.querySelector(".page__wrapper");
 const page = document.querySelector(".page");
+const closeModalButton = document.querySelector(".order__close");
 
 cardButton.forEach((button) => {
   button.addEventListener("click", (e) => {
@@ -26,6 +27,8 @@ cardButton.forEach((button) => {
     formModal.classList.replace("hidden", "show");
   });
 });
+
+closeModalButton.addEventListener("click", closeModal);
 
 function closeModal() {
   wrapper.style = "";
